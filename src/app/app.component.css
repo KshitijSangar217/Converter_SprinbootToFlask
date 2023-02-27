@@ -1,0 +1,60 @@
+.toolbar{
+    text-align: center;
+    color: black;
+}
+
+#heading{
+    font-family: 'Poppins', sans-serif;
+}
+
+#cf{
+    font-family: 'Poppins', sans-serif;
+}
+
+#JtoP{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    text-align: center;
+    background-color: rgb(123, 222, 242);
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-align: center;
+    padding: 10px 30px 30px 30px;
+    margin: 20px 120px 20px 120px;
+    box-shadow: 10px 10px 5px rgb(104, 90, 138);
+    border-radius: 25px;
+}
+
+.inputFileDiv{
+    text-align: center;
+}
+
+.javaLogo{
+    padding-bottom: 20px;
+}
+
+.downloadBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.dBtn{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#infoSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#infoSectionMsg{
+    position: absolute;
+}
